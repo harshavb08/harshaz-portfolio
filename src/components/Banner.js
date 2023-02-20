@@ -58,9 +58,9 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Harsha `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[" Vardhan"]'><span className="wrap">{text}</span></span></h1>
                   <p>
-                    I am a Full Stack Developer with a passion for building web applications. Winner in Smart India Hackathon 2022, UNESCO India Africa Hackthon 2022.  I have experience in building web applications using React, Django, Flask, MongoDB, MySQL and Firebase. I am also a competitive programmer (4* on CodeChef) and have a good understanding of Data Structures and Algorithms.
+                    I am a Full Stack Developer with a passion for building web applications. Winner in Smart India Hackathon 2022, UNESCO India Africa Hackthon 2022.  I have experience in building web applications using React, Django, NodeJs, MongoDB, MySQL and Firebase. I am also a competitive programmer (3* on CodeChef) and have a good understanding of Data Structures and Algorithms.
                   </p>
-                  <a href="https://drive.google.com/file/d/1fp9gk6sFHUpwnUgtaNAK_qbBNGzvzzpN/view?usp=sharing" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+                  <a href="https://drive.google.com/file/d/1jXOBjxgZisx8QGwFgG_Jb0_tPtpDxKia/view?usp=sharing" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
                   <button >My Resume<Download size={25} /></button>
                   </a>
               </div>}

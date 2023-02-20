@@ -13,6 +13,7 @@ import achSIH from "../assets/img/achSIH.jpeg";
 import achCC from "../assets/img/achCC.jpeg";
 import achAzura from "../assets/img/achAzura.jpeg";
 import achCmg from "../assets/img/achCmg.jpg";
+import achInv from "../assets/img/achInv.jpg";
 
 export const Achivements = () => {
 
@@ -49,10 +50,10 @@ export const Achivements = () => {
         certificateUrl: "https://drive.google.com/file/d/1CWw_cjdjNb3BRDjFLbWyXVtx9AzD5WoQ/view?usp=sharing",
     },
     {
-        title:"Coming Soon ;)",
-        description: "Coming Soon",
-        imgUrl: achCmg,
-        ccertificateUrl: "Coming Soon",
+        title:"Ranked 2nd",
+        description: "Inventron 2023, MLRIT Hyderabad",
+        imgUrl: achInv,
+        certificateUrl: "https://drive.google.com/file/d/173L8Ljlc9fBUsG5iuNRV_1AyCmSZAwim/view",
     }
   ];
 

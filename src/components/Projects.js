@@ -9,7 +9,7 @@ import projMlyze from "../assets/img/projMlyze.png";
 import projOrientation from "../assets/img/projOrientation.png";
 import projCardio from "../assets/img/projCardio.jpeg";
 import projShikshak from "../assets/img/projShikshak.png";
-import projPlag from "../assets/img/projPlag.png";
+import projAgriX from "../assets/img/projAgriX.png";
 
 export const Projects = () => {
 
@@ -38,17 +38,17 @@ export const Projects = () => {
     },
     {
       title: "Cardio Analyx",
-      description: "A web application for diagnosing Cardiomegaly using X-ray images, made as a part of UNESCO India Afria Hackathon 2022 (Not yet deployed)",
+      description: "A web application for diagnosing Cardiomegaly using X-ray images, made as a part of UNESCO India Afria Hackathon 2022",
       imgUrl: projCardio,
-      lliveUrl: "",
-      ggitUrl: "",
+      liveUrl: "https://github.com/harshavb08/cardioAnalyx",
+      gitUrl: "https://github.com/harshavb08/cardioAnalyx",
     },
     {
-      title: "Plag Nest",
-      description: "A web application to detect plagiarism in files like C, C++, Java, Python using mossPy (Currently under development)",
-      imgUrl: projPlag,
-      lliveUrl: "",
-      ggitUrl: "",
+      title: "AgriX",
+      description: "An E-commerce Website for farmers with a clean and user-friendly interface and search bar feature that allows farmers to easily browse different categories of seeds, fertilizers, pesticides and also different types of farming utilities and products.",
+      imgUrl: projAgriX,
+      liveUrl: "https://github.com/harshavb08/AgriX",
+      gitUrl: "https://github.com/harshavb08/AgriX",
     },
     {
       title: "Netflix Clone",
@@ -57,6 +57,7 @@ export const Projects = () => {
       liveUrl: "https://netflix-clone-by-h99.web.app/",
       gitUrl: "https://github.com/harshavb08/Netflix-Clone"
     },
+
   ];
 
   return (
@@ -69,7 +70,12 @@ export const Projects = () => {
               <div className={isVisible ? "": ""}>
                 <h2>Projects</h2>
                 <br></br>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Tab.Container id="projects-tabs" defaultActiveKey="first" style={
+                  {
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }
+                }>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>

@@ -65,7 +65,7 @@ export const Skills = () => {
                                 <Skilldata imglink="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/django-icon.png" skillname="Django"/>
                             </Col>
                             <Col md={3}>
-                                <Skilldata imglink="https://www.pngitem.com/pimgs/m/159-1595977_flask-python-logo-hd-png-download.png" skillname="Flask"/>  
+                                <Skilldata imglink="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png" skillname="NdoeJs"/>  
                             </Col>
                           </Row>
                           <br></br>
@@ -77,18 +77,12 @@ export const Skills = () => {
                             <Col md={3}>
                                 <Skilldata imglink="https://cdn-icons-png.flaticon.com/512/919/919836.png" skillname="MySQL"/>
                             </Col>
-                            <Col md={3}>
-                                <Skilldata imglink="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png" skillname="SQLite3"/>
-                            </Col>
                           </Row>
                           <br></br>
                           <h4>Tools</h4>
                           <Row className="justify-content-center">
                             <Col md={3}>
                               <Skilldata imglink="https://www.biteinteractive.com/wp-content/uploads/2021/05/git-vs-github.png" skillname="Git & Github"/>
-                            </Col>
-                            <Col md={3}>
-                                <Skilldata imglink="https://cdn.iconscout.com/icon/free/png-256/heroku-2752161-2284978.png" skillname="Heroku"/>
                             </Col>
                             <Col md={3}>
                                 <Skilldata imglink="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/2056px-Visual_Studio_Code_1.18_icon.svg.png" skillname="VS Code"/>

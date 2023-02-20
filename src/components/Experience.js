@@ -12,6 +12,21 @@ export const Experience = () => {
         </Row>
         <Row>
             <Col>
+                <h3>Web Developer Intern</h3>
+                <h3>Weiw</h3>
+                <h4>Januanry 2023</h4>
+                <p> Developed and implemented the company’s website using ReactJS framework, utilizing EmailJS for auto-response emails
+and hosting on Firebase.
+                    <br></br>
+                    Collaborated with the development team of 3 to deliver a high-quality, user-friendly website.
+                    <br></br>
+                    Contributed to the growth of the company by successfully implementing and launching their online website, resulting in
+an increase in user base and overall reach.
+                </p>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
                 <h3>Committee Member</h3>
                 <h3>Board Of Information Technology</h3>
                 <h4>August 2022 - Present</h4>
