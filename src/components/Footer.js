@@ -8,10 +8,10 @@ export const Footer = () => {
   const [views, SetViews] = React.useState([])
   useEffect(() => {
     axios
-      .get("https://api.countapi.xyz/update/harshazlive/c0c077b2-8475-43bf-b9f5-f7dec9a286e3/?amount=1")
+      .get("https://api.countapi.xyz/update/harshazlive/c0c077b2-8475-43bf-b9f5-f7dec9a286e3/?amount=0.5")
       .then((res) => {
         //console.log(res.data.value)
-        SetViews(((res.data.value)/2).toFixed())
+        SetViews((((res.data.value)).toFixed()))
       })
   },[]);
 
