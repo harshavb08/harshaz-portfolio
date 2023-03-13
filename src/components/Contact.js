@@ -43,7 +43,7 @@ export const Contact = () => {
                 <p>Feel free to contact me for any work or suggestions below</p>
                 <Row>
                   <Col size={12} sm={1} className="px-2" style={{width:"40px"}}>
-                    <a href="https://www.linkedin.com/in/harshavardhan-bammidi-b08a031bb/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/harshavardhan-bammidi/" target="_blank" rel="noreferrer">
                       <button style={{color:"white"}}><Linkedin size={25}/></button>
                     </a>
                   </Col>
