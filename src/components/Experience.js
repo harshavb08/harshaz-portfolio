@@ -13,15 +13,17 @@ export const Experience = () => {
         <Row>
             <Col>
                 <h3>Web Developer Intern <a href="https://drive.google.com/file/d/1GXrOn1khGRXrkNpeCW4PGdvuqNnf46np/view?usp=sharing" target={"_blank"} style={{color:"white",fontSize:"30px"}}><BoxArrowUpRight></BoxArrowUpRight></a></h3>
-                <h3>Weiw.in</h3>
+                <h3>
+                    <a href="https://weiw.in/" target={"_blank"} 
+                    style={{color:"white",fontSize:"30px",textDecoration:"none"}}
+                    > Weiw.in</a>
+                </h3>
                 <h4>Januanry 2023</h4>
-                <p> - Developed and implemented the company’s website using ReactJS framework, utilizing EmailJS for auto-response emails
-and hosting on Firebase.
+                <p> - Developed and implemented the company’s website using ReactJS framework, utilizing EmailJS for auto-response emails and hosting on Firebase.
                     <br></br>
                     - Collaborated with the development team of 3 to deliver a high-quality, user-friendly website.
                     <br></br>
-                    - Contributed to the growth of the company by successfully implementing and launching their online website, resulting in
-an increase in user base and overall reach.
+                    - Contributed to the growth of the company by successfully implementing and launching their online website, resulting in an increase in user base and overall reach.
                 </p>
             </Col>
         </Row>
