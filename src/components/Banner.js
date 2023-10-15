@@ -56,11 +56,11 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated " : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Harsha `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[" Vardhan"]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Harsha Vardhan`}</h1>
                   <p>
-                    I am a Full Stack Developer with a passion for building web applications. Winner in Smart India Hackathon 2022, UNESCO India Africa Hackthon 2022.  I have experience in building web applications using React, Django, NodeJs, MongoDB, MySQL and Firebase. I am also a competitive programmer (3* on CodeChef) and have a good understanding of Data Structures and Algorithms.
+                     Upcoming Software Engineer at PayPal, India | Former Intern at PayPal | MERN Stack Developer | Freelancer | Youtuber | Winner in SIH 2022, UIA 2022, Inventron 2023
                   </p>
-                  <a href="https://drive.google.com/file/d/1jXOBjxgZisx8QGwFgG_Jb0_tPtpDxKia/view?usp=sharing" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+                  <a href="https://drive.google.com/file/d/10roAgykflfGcJd6x1aW6zaEjNAqdwhxa/view" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
                   <button >My Resume<Download size={25} /></button>
                   </a>
               </div>}

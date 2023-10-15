@@ -1,7 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import { FreelanceCard } from "./FreelanceCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
+
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 import projNetflix from "../assets/img/projNetflix.png";
@@ -10,6 +14,12 @@ import projOrientation from "../assets/img/projOrientation.png";
 import projCardio from "../assets/img/projCardio.jpeg";
 import projShikshak from "../assets/img/projShikshak.png";
 import projAgriX from "../assets/img/projAgriX.png";
+import projCmng from "../assets/img/achCmg.jpg";
+import projInt from "../assets/img/projInt.png";
+import projvcss from "../assets/img/projvcss.png";
+import projVcssuk from "../assets/img/projVcssuk.png";
+import projBonkur from "../assets/img/projBonkur.png";
+import projWeiw from "../assets/img/projWeiw.png";
 
 export const Projects = () => {
 
@@ -60,7 +70,48 @@ export const Projects = () => {
 
   ];
 
+  const freelancingProjects = [
+      {
+        title: "The Bonkur Group",
+        imgUrl: projBonkur,
+        description: "Client: The Bonkur Group, UK",
+        liveUrl: "https://thebonkurgroup.com",
+      },
+      {
+        title: "VCSS Canada",
+        imgUrl: projVcssuk,
+        description: "Client: VCSS, Canada",
+        liveUrl: "https://vcsscanada.com",
+      },
+      {
+        title: "VCSS UK",
+        imgUrl: projvcss,
+        description: "Client: VCSS, UK",
+        liveUrl: "https://vcss.uk",
+      },
+      {
+        title: "International Gateway Ltd.",
+        imgUrl: projInt,
+        description: "Client: International Gateway Ltd, UK",
+        liveUrl: "https://intgateway.com", 
+      },
+      {
+        title: "Weiw.in",
+        imgUrl: projWeiw,
+        description: "Client: Weiw.in, India",
+        liveUrl: "https://weiw.in",
+      },
+      {
+        title: "Coming Soon",
+        imgUrl: projCmng,
+        description: "",
+        liveUrl: "#",
+      }
+
+  ];
+
   return (
+    <>
     <section className="project" id="project">
       <Container>
         <Row>
@@ -100,5 +151,46 @@ export const Projects = () => {
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
+    <section className="project" id="project">
+      <Container>
+        <Row>
+          <Col size={12}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+              <div className={isVisible ? "": ""}>
+                <h2>Freelancing Work</h2>
+                <p>Note: Color Theme and website design were set as given by client</p>
+                <Tab.Container id="projects-tabs" defaultActiveKey="first" style={
+                  {
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }
+                }>
+                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated" : ""}>
+                    <Tab.Pane eventKey="first">
+                      <Row>
+                        {
+                          freelancingProjects.map((project, index) => {
+                            return (
+                              <FreelanceCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                  </Tab.Content>
+                </Tab.Container>
+              </div>}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
+      <img className="background-image-right" src={colorSharp2}></img>
+    </section>
+    
+    </>
   )
 }

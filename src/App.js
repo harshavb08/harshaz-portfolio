@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <ParticlesConfig/>
+      {/* <ParticlesConfig/> */}
       <NavBar/>
       <Banner/>
       <Experience/>

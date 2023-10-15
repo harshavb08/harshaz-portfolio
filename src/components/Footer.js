@@ -20,7 +20,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Container className="text-center">
-            <p><Eye size={20}/> Views: {views}</p>
+            {/* <p><Eye size={20}/> Views: {views}</p> */}
             <p>© Harshaz.live; Copyright 2022. All Rights Reserved</p>
         </Container>
       </Container>
